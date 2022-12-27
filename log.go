@@ -1,11 +1,15 @@
- package logger
+package logger
 
- import (
-  "fmt"
- )
-    
- var Version string = "1.0"
-    
- func Log(mess string) {
-  fmt.Println("[LOG] " + mess)
- }
+import (
+	"fmt"
+)
+
+var Version string = "1.0"
+
+func Log(mess string) {
+	fmt.Println("[LOG] " + mess)
+}
+
+func Log1(mess string) {
+	fmt.Println("[LOG1] " + mess)
+}
